@@ -1,0 +1,45 @@
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Ensure the form is centered vertically */
+}
+
+.right {
+  width: 60%; /* Adjust width as needed */
+  padding: 35px;
+}
+
+.input span {
+  font-size: 13px;
+}
+
+.input input {
+  margin-top: 10px;
+  width: 100%; /* Make input fields take full width */
+}
+
+.login-container {
+  margin-top: 20px;
+  text-align: center; /* Align form elements to the center */
+}
+
+.login-container button {
+  width: auto; /* Allow button to take its natural width */
+  margin-top: 20px;
+}
+.login-container form {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.login-container label {
+  margin-right: 20px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.login-container input[type="checkbox"] {
+  margin-right: 5px;
+}

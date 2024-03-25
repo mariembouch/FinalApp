@@ -1,8 +1,7 @@
-import "./Client.css"; // You can style your login page in Login.css
+import "./Ambulance.css"; // You can style your login page in Login.css
 import Header from "../../component/Head/Header"
 import SideBar from "../../component/SideBar/SideBar"
-
-const Client = () => {
+const Ambulance = () => {
  
 
   return (
@@ -12,11 +11,11 @@ const Client = () => {
     <SideBar/>
 
     <div className="login-container">
-      <h2>Hello patient </h2>
+      <h2>Hello Ambulance</h2>
      
     </div>
     </>
   );
 };
 
-export default Client;
+export default Ambulance ;
