@@ -11,9 +11,9 @@ const SideBar = ({ collapsed, toggleCollapsed }) => {
     }}>
       <Menu>
         <MenuItem className='btn1'>Profile</MenuItem>
-        <MenuItem className='btn1'>Calendar</MenuItem>
-        <MenuItem className='btn1'>E-commerce</MenuItem>
-        <MenuItem className='btn1'>Examples</MenuItem>
+        <MenuItem className='btn1'>Add doctor </MenuItem>
+        <MenuItem className='btn1'>Add Patient</MenuItem>
+        <MenuItem className='btn1'>Add assistant</MenuItem>
       </Menu>
      
     

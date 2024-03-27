@@ -22,9 +22,9 @@ const Profile = () => {
                 </div>
                 <div className='details'>
                   <h1>Nevine Acotanza</h1>
-                  <p>Chief Operating Officer</p>
+                  <p>admin</p>
                   <p>I am available for freelance work. Connect with me via and call in to my account.</p> <br />
-                  <p>Phone: +01234567890</p>
+                  <p>adresse ghanashe : HDIRGXXKG245JHJBVGVGJHVUH</p>
                   <p>Email: admin@example.com</p> <br />
                   <span>FIND WITH ME</span>
                   <div className='button f_flex'>

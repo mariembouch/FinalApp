@@ -74,7 +74,7 @@ const Login = () => {
           <div className="intro">
             <h3>Dans notre clinique, chaque individu joue un rôle bien défini, mais tous convergent vers un objectif commun : </h3>
           <h3>assurer la santé de nos patients !  </h3>
-          <h3>merci de bien choisir votre role  </h3>
+          <h2>merci de bien choisir votre role  </h2>
 
           </div>
           <div className="login-container">
@@ -95,7 +95,7 @@ const Login = () => {
                   checked={selectedRole === "Ambulance"}
                   onChange={handleCheckboxChange}
                 />
-Urgence 
+             Urgence 
               </label>
               <label>
                 <input

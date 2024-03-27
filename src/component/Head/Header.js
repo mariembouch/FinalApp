@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
-import { Link } from "react-router-dom";
+import { Link } from "react-router-dom"; // Import Link
 import logo from "../pic/logo.png";
 import "./header.css";
 
@@ -26,11 +26,15 @@ const Header = () => {
     <header ref={headerRef} className="header">
       <div className="container d_flex">
         <div className="logo">
-          <img src={logo} alt="" />
+          {/* Replace anchor tag with Link */}
+          <Link to="/" className="logo-link">
+            <img src={logo} alt="Logo" />
+          </Link>
         </div>
 
         <div className="navlink">
           <ul className={mobile ? "nav-links-mobile" : "link f_flex uppercase"} onClick={() => setMobile(false)}>
+        
             <li>
               <a href="#home">home</a>
             </li>
